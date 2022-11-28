@@ -62,6 +62,7 @@ jobs:
 
       - name: ▶️ Run test script
         run: npm run test
+
       - name: ⬆️ Upload coverage report
         uses: codecov/codecov-action@v3
 
